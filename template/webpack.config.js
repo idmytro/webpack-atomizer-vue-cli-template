@@ -23,6 +23,14 @@ module.exports = {
         },
       },
       {
+        test: /\.vue$/,
+        exclude: /(node_modules)/,
+        loader: 'webpack-atomizer-loader',
+        // query: {
+        //   configPath: path.resolve ('./atom.config.js'),
+        // },
+      },
+      {
         test: /\.js$/,
         loader: 'babel-loader',
         exclude: /node_modules/,
