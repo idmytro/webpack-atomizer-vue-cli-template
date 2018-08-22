@@ -24,6 +24,8 @@ $ npm run dev
 
 For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader). Also check out the [breaking changes in vue-loader@9.0.0](https://github.com/vuejs/vue-loader/releases/tag/v9.0.0).
 
+[Atomizer-loader](https://github.com/acss-io/webpack-atomizer-loader).
+
 ### Fork It And Make Your Own
 
 You can fork this repo to create your own boilerplate, and use it with `vue-cli`:
