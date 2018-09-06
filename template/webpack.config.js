@@ -16,19 +16,15 @@ module.exports = {
       },
       {
         test: /\.vue$/,
-        loader: 'vue-loader',
-        options: {
-          loaders: {},
-          // other vue-loader options go here
-        },
+        loader: 'vue-loader'
       },
       {
         test: /\.vue$/,
         exclude: /(node_modules)/,
         loader: 'webpack-atomizer-loader',
-        // query: {
-        //   configPath: path.resolve ('./atom.config.js'),
-        // },
+        query: {
+          configPath: path.resolve('./build-utils/atomizer/loader.config.js')
+        },
       },
       {
         test: /\.js$/,
