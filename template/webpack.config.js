@@ -23,7 +23,7 @@ module.exports = {
         exclude: /(node_modules)/,
         loader: 'webpack-atomizer-loader',
         query: {
-          configPath: path.resolve('./build-utils/atomizer/loader.config.js')
+          configPath: path.resolve('./build-utils/loader.config.js')
         },
       },
       {
